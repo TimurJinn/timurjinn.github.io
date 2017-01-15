@@ -2,44 +2,39 @@
 
 <html>
 	<head>
-		<title>Izmailov Timur</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<title>Izmaylov Timur</title>
+		 <meta charset="utf-8">
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-
-				<!-- Header -->
-					<header id="header">
-						<h1>Izmailov Timur</h1>
-						<p>Just &nbsp;&bull;&nbsp; my &nbsp;&bull;&nbsp; site</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/Timur_Izmailov" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/timur.izmailoff" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://vk.com/mr_izmaylov" class="icon fa-vk"><span class="label">VK</span></a></li>
-								<li><a href="https://github.com/TimurJinn" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://instagram.com/mr.izmaylov/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							</ul>
-						</nav>
-					</header>
-
-				
-
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+	<body>
+		<div class="container">
+		   <div class="row">
+		     <div class="col-lg-offset-3 col-lg-6">
+			 <form class="form" action="https://formspree.io/izmailov@xaker.ru"
+      method="POST">
+             <div class="form-group">
+               <label for="exampleInputName2">Имя</label>
+               <input type="text" class="form-control" id="exampleInputName2" name="name" placeholder="Сергей Сергеевич">
+             </div>
+             <div class="form-group">
+               <label for="exampleInputEmail2">Email</label>
+               <input type="email" class="form-control" id="exampleInputEmail2" name="email" placeholder="sergey@example.com">
+			   <input type="hidden" name="_next" value="https://vk.com/mr_izmaylov" />
+			   <input type="text" name="_gotcha" style="display:none" />
+             </div>
+             <button type="submit" class="btn btn-default">Отправить</button>
+             </form>
+			 
+			 </div>
+			</div> 
+		</div>	 
 	</body>
 </html>
